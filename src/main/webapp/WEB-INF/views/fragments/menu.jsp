@@ -20,8 +20,11 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link-Javier-Nieto" action="https://www.youtube.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.Javier-Nieto" action="https://www.youtube.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link.Andres-Garcia" action="https://soymotor.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.Pablo-Diaz" action="https://www.astonmartinf1.com/en-GB/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.Alejandro-Sevillano" action="https://www.twitter.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.Antonio-Lopez" action="https://pokemon.alexonsager.net/"/>			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
